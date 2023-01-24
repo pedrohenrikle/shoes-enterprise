@@ -44,33 +44,35 @@
           </div>
         </aside>
         <main>
-          <img
-            src="./assets/tenis-1-ampliado.png"
-            alt="Produto"
-            class="product"
-          />
+          <img src="./assets/tenis-1-ampliado.png" alt="Produto" id="product" />
           <ul>
-            <li>
-              <button>
+            <li class="options">
+              <button id="option1">
                 <img
                   src="./assets/tenis-1-galeria.png"
                   alt="Versão 1 do produto"
+                  onmouseover="selectImage(this)"
+                  onmouseout="normalImage(this)"
                 />
               </button>
             </li>
-            <li>
-              <button>
+            <li class="options">
+              <button id="option2">
                 <img
                   src="./assets/tenis-2-galeria.png"
                   alt="Versão 2 do produto"
+                  onmouseover="selectImage(this)"
+                  onmouseout="normalImage(this)"
                 />
               </button>
             </li>
-            <li>
-              <button>
+            <li class="options">
+              <button id="option3">
                 <img
                   src="./assets/tenis-3-galeria.png"
                   alt="Versão 3 do produto"
+                  onmouseover="selectImage(this)"
+                  onmouseout="normalImage(this)"
                 />
               </button>
             </li>
